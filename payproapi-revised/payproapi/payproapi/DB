@@ -1,0 +1,6 @@
+CREATE TABLE Overtime (
+    overtime_id INT PRIMARY KEY,
+    overtime_hours DECIMAL(5, 2) NOT NULL,
+    overtime_rate DECIMAL(10, 2) NOT NULL,
+    overtime_date DATE NOT NULL,
+); ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
